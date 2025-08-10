@@ -1,6 +1,5 @@
 const uidToPageMap = {
-    "nezuko.html": ["FEEA47BF", "7ED347BF"],
-    "eventlily.html": ["LILY00"],
+    "nezuko.html": ["nezuko00", "7ED347BF"]
 };
 
 // Elements
