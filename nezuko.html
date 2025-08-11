@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <title>Vesalius Lily</title>
-    <link rel="stylesheet" href="../testnfc/styles/main.css">
+    <link rel="stylesheet" href="styles/main.css">
 
    <style>
 body {
@@ -153,13 +153,12 @@ img.hover-shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 </style>
-     <script>
-    document.addEventListener('DOMContentLoaded', () => {
-        const referrer = document.referrer; 
+    <script>
+         document.addEventListener('DOMContentLoaded', () => {
        
 
         document.addEventListener('contextmenu', (e) => {
-            if (e.target.tagName === 'IMG') {
+            if (e.target.tagName === 'IMG' || e.target.tagName === 'VIDEO') {
                 e.preventDefault();
             }
         });
@@ -168,7 +167,7 @@ img.hover-shadow {
             img.addEventListener('dragstart', event => event.preventDefault());
         });
     });
-</script>
+    </script>
 </head>
 
 <body style="background-color: #ffd0d7;">
