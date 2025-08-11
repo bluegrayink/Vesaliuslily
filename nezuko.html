@@ -155,7 +155,7 @@ img.hover-shadow {
 </style>
     <script>
          document.addEventListener('DOMContentLoaded', () => {
-       
+       const referrer = document.referrer; 
 
         document.addEventListener('contextmenu', (e) => {
             if (e.target.tagName === 'IMG' || e.target.tagName === 'VIDEO') {
