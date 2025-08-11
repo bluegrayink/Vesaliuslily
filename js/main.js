@@ -1,5 +1,6 @@
 const uidToPageMap = {
-    "nezuko.html": ["nezuko00", "7ED347BF"]
+    "nezuko.html": ["LILY0NEZUKO","B6F9B619","B67CB619","16F0B119","C60BB119","D603C019","06A4B219","36BAAE19","B630301A","062FB619","2656B519"],
+    
 };
 
 // Elements
